@@ -20,7 +20,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -36,15 +36,20 @@ dependencies {
     testCompile 'junit:junit:4.12'
     // 添加依赖。注意，版本号必须一致。
     // 基础功能 (必需)
-    /*compile 'com.netease.nimlib:basesdk:4.4.0'
-        // 音视频需要
-        compile 'com.netease.nimlib:nrtc:4.4.0'
-        // 音视频需要
-        compile 'com.netease.nimlib:avchat:4.4.0'*/
+  /*  compile 'com.netease.nimlib:basesdk:4.5.1'
+    // 音视频需要
+    compile 'com.netease.nimlib:nrtc:4.5.1'
+    // 音视频需要
+    compile 'com.netease.nimlib:avchat:4.5.1'*/
+    /* implementation files('libs/nim-avchat-4.5.1.jar')
+        implementation files('libs/nim-basesdk-4.5.1.jar')
+        implementation files('libs/nim-chatroom-4.5.1.jar')
+        implementation files('libs/nim-lucene-4.5.1.jar')
+        implementation files('libs/nim-rts-4.5.1.jar')
+        implementation files('libs/nrtc-sdk.jar')
+        implementation files('libs/video_effect.jar')*/
     implementation files('libs/nim-avchat-4.5.1.jar')
     implementation files('libs/nim-basesdk-4.5.1.jar')
-    implementation files('libs/nim-chatroom-4.5.1.jar')
-    implementation files('libs/nim-lucene-4.5.1.jar')
     implementation files('libs/nim-rts-4.5.1.jar')
     implementation files('libs/nrtc-sdk.jar')
     implementation files('libs/video_effect.jar')

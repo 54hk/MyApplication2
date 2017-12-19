@@ -19,7 +19,6 @@ import com.netease.nimlib.sdk.util.NIMUtil;
 import java.io.IOException;
 
 import haiban.haiqi.com.video.R;
-
 /**
  * Created by 54hk on 2017/12/8.
  */

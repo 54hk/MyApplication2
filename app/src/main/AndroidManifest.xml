@@ -132,6 +132,8 @@
             android:exported="false"
             android:process=":core" />
 
+
+
     </application>
 
 </manifest>
